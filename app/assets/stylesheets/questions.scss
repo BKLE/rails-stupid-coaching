@@ -1,3 +1,32 @@
 // Place all the styles related to the questions controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+
+$font-stack: Helvetica, sans-serif;
+$primary-color: #021915;
+$secondary-color: #09dbb8;
+
+form {
+  box-sizing: border-box;
+}
+
+
+input {
+  padding: 10px;
+  border-radius: 10px;
+}
+
+h2 {
+  font: $font-stack;
+  color: $primary-color;
+}
+
+p {
+  font: $font-stack;
+  color: $secondary-color;
+}
+
+a {
+  font: $font-stack;
+
+}
